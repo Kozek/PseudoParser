@@ -24,7 +24,7 @@ class Parser:
                         "else if": "elif",
                         "/": "//",
                         "fi": "#fi",
-                        "od": "do",
+                        "od": "#od",
                         "Null": "None"}
 
     def read_input_file(self):
